@@ -1,34 +1,80 @@
-## Project info
-===========================================
-              SparkSounds - README
-===========================================
+🎵 SparkSounds – README
 
-🔗 Public Code Repository:  
-https://github.com/sparksound2025/sparksounds-app  
-(Note: Please ensure this link is public and accessible without login.)
+🔗 Public Code Repository:
 
---------------------------------------------------
-📝 Prototype Summary:  
-SparkSounds is a mobile application developed to enhance sound awareness for the deaf and hard-of-hearing community. Using AI-based real-time sound detection, the app identifies key environmental sounds—like sirens, alarms, temple bells, and public announcements—and alerts users through a combination of visual notifications and vibration feedback. All detection runs locally on the device, ensuring both speed and user privacy.
+https://spark-sound.vercel.app/
 
---------------------------------------------------
-✨ Key Features:  
-- Offline AI-powered sound classification  
-- Visual alerts and customizable vibration feedback  
-- Detects emergency, cultural, and ambient public sounds  
-- Supports multiple languages with automatic translation  
-- Admin panel to broadcast alerts or instructions  
-- Configurable sound preferences and vibration intensity  
-- Alert history log for user awareness and tracking
+(Ensure this repo is public and accessible without login)
 
---------------------------------------------------
-🚨 Problem Statement:  
-People with hearing disabilities often miss critical environmental sounds, which can put them at risk—especially in public places. Existing solutions are either costly, require constant internet access, or are not user-friendly. SparkSounds offers a free, offline, and accessible solution to bridge this communication and awareness gap.
+📝 Prototype Summary
 
---------------------------------------------------
-💡 Prototype Overview:  
-SparkSounds uses the device’s microphone to capture audio and processes it locally using machine learning models. When a recognizable sound is detected, the app instantly provides vibration alerts and on-screen messages. Admin users, such as temple staff or event organizers, can also broadcast announcements that are auto-translated and delivered to users in their preferred language. With its focus on accessibility, simplicity, and scalability, SparkSounds can be adopted in various environments like temples, schools, public events, and emergency zones.
+SparkSounds is a mobile application designed to enhance sound awareness for the deaf and hard-of-hearing community.
+Using AI-powered real-time sound detection, the app identifies critical environmental sounds—such as sirens, alarms, temple bells, and public announcements—and alerts users with visual notifications and vibration feedback.
 
---------------------------------------------------
-Developed by: Team SparkSounds  
+All detection is processed offline on the device, ensuring speed, reliability, and user privacy.
+
+✨ Key Features
+
+🔊 Offline AI-powered sound classification (no internet required)
+
+👁️‍🗨️ Visual alerts with customizable vibration feedback
+
+🚨 Detects emergency, cultural, and ambient sounds
+
+🌍 Multi-language support with automatic translation
+
+🛠️ Admin panel to broadcast alerts or instructions
+
+⚙️ Configurable sound preferences and vibration intensity
+
+📜 Alert history log for tracking awareness
+
+🚨 Problem Statement
+
+People with hearing impairments often miss critical environmental sounds, putting them at risk in public spaces.
+Existing solutions are either expensive, require constant internet access, or lack user-friendliness.
+
+👉 SparkSounds provides a free, offline, and accessible solution that bridges the communication and awareness gap.
+
+💡 Prototype Overview
+
+Uses device microphone to capture audio
+
+Processes sound locally with ML models
+
+Provides instant vibration + visual notifications
+
+Admin users (temple staff, organizers, emergency teams) can broadcast announcements
+
+Messages are auto-translated into the user’s preferred language
+
+Designed for temples, schools, public events, emergency zones
+
+🔑 Demo Credentials
+👨‍💻 Admin Login
+
+📧 Email: sparksound2025@gmail.com
+
+🔒 Password: V+visioners
+
+🙋 User Login
+
+📧 Email: legend1mass@gmail.com
+
+🔒 Password: Mass@2209
+
+(For demo purposes only — please change credentials in production)
+
+👥 Developed By – Team SparkSounds
+
+🧑‍💻 Pranaveshwaran – Team Leader, UI/UX & Presentation
+
+🧑‍💻 Vignesh – App & Web Development, Database
+
+👩‍🔬 Ruth Jesica – Hardware Integration, Research & Development
+
+👩‍💻 Beluah Mercy – Data Connection & Testing
+
+🏆 Submission Info
+
 Submitted for: Mahakumbh Hackathon 2025 – Round 2
