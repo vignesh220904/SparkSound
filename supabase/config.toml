@@ -1,0 +1,4 @@
+project_id = "facrrgvrdampjdvonwqz"
+
+[functions.admin-send-instruction]
+verify_jwt = false

@@ -1,0 +1,243 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* SparkSounds Design System - Green & White Gradient Theme
+All colors MUST be HSL for accessibility and theming.
+*/
+
+@layer base {
+  :root {
+    /* Core Background System */
+    --background: 158 64% 95%;
+    --foreground: 158 84% 8%;
+
+    /* Card System */
+    --card: 0 0% 100%;
+    --card-foreground: 158 84% 8%;
+
+    /* Popover System */
+    --popover: 0 0% 100%;
+    --popover-foreground: 158 84% 8%;
+
+    /* Primary Orange Theme */
+    --primary: 25 100% 50%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 35 100% 60%;
+
+    /* Secondary Orange Variants */
+    --secondary: 25 50% 92%;
+    --secondary-foreground: 25 80% 25%;
+
+    /* Muted Tones */
+    --muted: 25 20% 95%;
+    --muted-foreground: 25 25% 45%;
+
+    /* Accent Colors */
+    --accent: 25 45% 88%;
+    --accent-foreground: 25 75% 25%;
+
+    /* Emergency Alert System */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --emergency: 15 100% 50%;
+    --emergency-foreground: 0 0% 100%;
+
+    /* Form Elements */
+    --border: 25 30% 88%;
+    --input: 25 25% 92%;
+    --ring: 25 100% 50%;
+
+    /* Design System */
+    --radius: 0.75rem;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(25 100% 50%), hsl(35 100% 60%));
+    --gradient-background: linear-gradient(180deg, hsl(0 0% 100%), hsl(25 40% 97%));
+    --gradient-card: linear-gradient(135deg, hsl(0 0% 100%), hsl(25 20% 98%));
+    --gradient-emergency: linear-gradient(135deg, hsl(0 84% 60%), hsl(15 100% 50%));
+
+    /* Shadows */
+    --shadow-soft: 0 4px 20px -4px hsl(25 100% 50% / 0.1);
+    --shadow-orange: 0 8px 30px -8px hsl(25 100% 50% / 0.2);
+    --shadow-emergency: 0 4px 20px -4px hsl(0 84% 60% / 0.3);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --pulse-duration: 2s;
+    
+    /* Sound Detection Colors */
+    --sound-devotional: 258 90% 66%;
+    --sound-emergency: 0 84% 60%;
+    --sound-general: 25 100% 50%;
+    --sound-temple: 280 100% 70%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    background: var(--gradient-background);
+  }
+}
+
+@layer components {
+  /* Sound Detection Animation Classes */
+  .sound-pulse {
+    @apply animate-pulse;
+    animation: sound-pulse var(--pulse-duration) ease-in-out infinite;
+  }
+
+  .vibration-effect {
+    animation: vibrate 0.5s ease-in-out infinite;
+  }
+
+  .emergency-flash {
+    animation: emergency-flash 1s ease-in-out infinite;
+  }
+
+  /* Button Variants */
+  .btn-gradient {
+    background: var(--gradient-primary);
+    @apply text-white font-medium px-6 py-3 rounded-xl border-none;
+    box-shadow: var(--shadow-orange);
+    transition: var(--transition-smooth);
+  }
+
+  .btn-gradient:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-orange), 0 12px 40px -12px hsl(25 100% 50% / 0.3);
+  }
+
+  .btn-gradient:active {
+    transform: translateY(0);
+  }
+  
+  /* Enhanced Card Styles */
+  .card-enhanced {
+    background: var(--gradient-card);
+    box-shadow: var(--shadow-soft);
+    @apply border border-border/30 backdrop-blur-sm;
+    transition: var(--transition-smooth);
+  }
+
+  .card-enhanced:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-orange);
+    border-color: hsl(25 100% 50% / 0.3);
+  }
+
+  /* Card Styles */
+  .card-gradient {
+    background: var(--gradient-card);
+    box-shadow: var(--shadow-soft);
+    @apply border border-border/50;
+  }
+
+  .sound-card {
+    @apply bg-card rounded-xl p-4 border border-border/30;
+    box-shadow: var(--shadow-soft);
+    transition: var(--transition-smooth);
+  }
+
+  .sound-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-orange);
+  }
+
+  .emergency-card {
+    background: var(--gradient-emergency);
+    @apply text-white;
+    box-shadow: var(--shadow-emergency);
+  }
+}
+
+@layer utilities {
+  /* Animation Keyframes */
+  @keyframes sound-pulse {
+    0%, 100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.7;
+      transform: scale(1.05);
+    }
+  }
+
+  @keyframes vibrate {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-2px);
+    }
+    75% {
+      transform: translateX(2px);
+    }
+  }
+
+  @keyframes emergency-flash {
+    0%, 100% {
+      background-color: hsl(0 84% 60%);
+    }
+    50% {
+      background-color: hsl(15 100% 50%);
+    }
+  }
+
+  /* Gradient Utilities */
+  .bg-gradient-primary {
+    background: var(--gradient-primary);
+  }
+
+  .bg-gradient-card {
+    background: var(--gradient-card);
+  }
+
+  .bg-gradient-emergency {
+    background: var(--gradient-emergency);
+  }
+}
