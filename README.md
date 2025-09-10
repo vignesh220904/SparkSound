@@ -82,18 +82,21 @@ Designed for temples, schools, public events, emergency zones
 (For demo purposes only — please change credentials in production)
 
 
--------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------
 
 👥 Developed By – Team SparkSounds
 
-🧑‍💻 Pranaveshwaran – Team Leader, UI/UX & Presentation
+🧑‍💻 Pranaveshwaran M K – Team Leader, UI/UX & Presentation
 
-🧑‍💻 Vignesh – App & Web Development, Database
+🧑‍💻 Vignesh G– App & Web Development, Database
 
-👩‍🔬 Ruth Jesica – Hardware Integration, Research & Development
+👩‍🔬 Ruth Jesica S– Hardware Integration, Research & Development
 
-👩‍💻 Beluah Mercy – Data Connection & Testing
+👩‍💻 Beluah Mercy A – Data Connection & Testing
 
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
 
 
 🏆 Submission Info
