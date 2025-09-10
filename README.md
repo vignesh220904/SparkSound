@@ -1,4 +1,4 @@
-🎵 SparkSounds – README
+🎵 SparkSounds
 
 🔗 Public Code Repository:
 
@@ -6,12 +6,18 @@ https://spark-sound.vercel.app/
 
 (Ensure this repo is public and accessible without login)
 
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
 📝 Prototype Summary
 
 SparkSounds is a mobile application designed to enhance sound awareness for the deaf and hard-of-hearing community.
 Using AI-powered real-time sound detection, the app identifies critical environmental sounds—such as sirens, alarms, temple bells, and public announcements—and alerts users with visual notifications and vibration feedback.
 
 All detection is processed offline on the device, ensuring speed, reliability, and user privacy.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
 
 ✨ Key Features
 
@@ -29,10 +35,13 @@ All detection is processed offline on the device, ensuring speed, reliability, a
 
 📜 Alert history log for tracking awareness
 
+
+
 🚨 Problem Statement
 
 People with hearing impairments often miss critical environmental sounds, putting them at risk in public spaces.
 Existing solutions are either expensive, require constant internet access, or lack user-friendliness.
+
 
 👉 SparkSounds provides a free, offline, and accessible solution that bridges the communication and awareness gap.
 
@@ -50,12 +59,19 @@ Messages are auto-translated into the user’s preferred language
 
 Designed for temples, schools, public events, emergency zones
 
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
 🔑 Demo Credentials
+
+
 👨‍💻 Admin Login
 
 📧 Email: sparksound2025@gmail.com
 
 🔒 Password: V+visioners
+
+-------------------------------------------------------------------------------------------------------------------------------------------
 
 🙋 User Login
 
@@ -64,6 +80,9 @@ Designed for temples, schools, public events, emergency zones
 🔒 Password: Mass@2209
 
 (For demo purposes only — please change credentials in production)
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
 
 👥 Developed By – Team SparkSounds
 
@@ -74,6 +93,8 @@ Designed for temples, schools, public events, emergency zones
 👩‍🔬 Ruth Jesica – Hardware Integration, Research & Development
 
 👩‍💻 Beluah Mercy – Data Connection & Testing
+
+
 
 🏆 Submission Info
 
